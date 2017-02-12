@@ -1,0 +1,6 @@
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\capa_datos\bin\Debug\capa_datos.dll
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\capa_datos\bin\Debug\capa_datos.pdb
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\capa_datos\bin\Debug\MySql.Data.dll
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\capa_datos\obj\Debug\capa_datos.csprojResolveAssemblyReference.cache
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\capa_datos\obj\Debug\capa_datos.dll
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\capa_datos\obj\Debug\capa_datos.pdb

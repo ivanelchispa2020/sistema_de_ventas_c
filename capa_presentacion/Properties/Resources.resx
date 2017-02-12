@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="degradado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\degradado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="degradado_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\degradado_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="almacen1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\almacen1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ventas_grande" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ventas_grande.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="degrdado_menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\degrdado_menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trabajador2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trabajador2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cargando_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cargando_3.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="presentacion1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\presentacion1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="next2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\next4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_cerrado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_cerrado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_frm_ingreso_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_frm_ingreso_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minimizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minimizar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_abierto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_abierto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_20.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ventana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ventana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trabajadores_grande_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trabajadores_grande_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="next1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\next3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cliente_grande" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cliente_grande.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_25.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cargando_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cargando_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="datos_egresos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\datos_egresos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="base_de_datos1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\base_de_datos1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_frm_articulos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_frm_articulos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quitar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quitar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="next" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\next2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cargando_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cargando_6.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="compras_icono_naranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\compras_icono_naranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="categoria_grande" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\categoria_grande.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ventas2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ventas2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trabajador1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trabajador1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="degradado_fondo_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\degradado_fondo_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_29.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ordenar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ordenar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back_grande_naranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back_grande_naranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="herramientas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\herramientas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cascada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cascada.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="categoria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\categoria.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="base_de_datos_icono_naranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\base_de_datos_icono_naranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_menu_principal_grande1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_menu_principal_grande1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nueva_ventana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nueva_ventana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultas1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\consultas1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_frm_ingreso_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_frm_ingreso_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagen_frm_ingreso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagen_frm_ingreso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frm_articulos_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frm_articulos_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="degradado_menu_mediano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\degradado_menu_mediano.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="almacen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\almacen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_menu_principal_grande" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_menu_principal_grande.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_frm_ingresos_grande" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_frm_ingresos_grande.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_28.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="proveedores" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\proveedores.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="compar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\compar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vertical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vertical.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="normal_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\normal_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="presentation_icono_naranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\presentation_icono_naranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mantenimiento_logo_naranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mantenimiento_logo_naranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_principal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_principal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="proveedor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\proveedor1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="base_de_datos_icono_verde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\base_de_datos_icono_verde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frm_ingresos_grande_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frm_ingresos_grande_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cliente1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cliente1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ventas1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ventas1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frm_articulos_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frm_articulos_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="articulo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\articulo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cerrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cerrar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="degradado_fondo_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\degradado_fondo_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="articulos_grande" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\articulos_grande.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="categoria1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\categoria1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sql" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sql.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="almacen_logo_naranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\almacen_logo_naranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="servicio_tecnico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\servicio_tecnico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frm_ingresos_grande_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frm_ingresos_grande_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="next_mediano_verde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\next_mediano_verde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trabajadores_grande" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trabajadores_grande.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="venta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\venta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="base_de_datos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\base_de_datos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_menu_principal_grande_blanco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_menu_principal_grande_blanco.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ventas_icono_naranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ventas_icono_naranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="compras_icono_verde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\compras_icono_verde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main_grande_naranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main_grande_naranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cargando" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cargando.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="next_grande_naranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\next_grande_naranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="almacen_logo_verde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\almacen_logo_verde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="proveedor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\proveedor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maximizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maximizar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sistema" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sistema.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="articulo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\articulo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="presentacion_grande" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\presentacion_grande.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_27.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="degradado_menu_mediano_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\degradado_menu_mediano_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cliente" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cliente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_frm_ingreso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_frm_ingreso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="articulos_grande1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\articulos_grande.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\salir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frm_ingresos_grande" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frm_ingresos_grande.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ingreso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ingreso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="soporte_tecnico_verde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\soporte_tecnico_verde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mantenimiento" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mantenimiento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\consultas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultas_grande" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\consultas_grande.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comprando" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comprando.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="proveedores_grande" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\proveedores_grande.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_26.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ingreso1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ingreso1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="horizontal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\horizontal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ventas_icono_verde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ventas_icono_verde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="panel_grande_ingreso_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\panel_grande_ingreso_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="soporte_tecnico_grande" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\soporte_tecnico_grande.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="presentacion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\presentacion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_22.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ivan_avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ivan_avatar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="acerca_de_mi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\acerca_de_mi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="datos_ingresos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\datos_ingresos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_24.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trabajador" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trabajador.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="soporte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\soporte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cargando_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cargando_5.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ingreso_grande" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ingreso_grande.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="soporte_tecnico_naranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\soporte_tecnico_naranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ventas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ventas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cargando1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cargando.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back_mediano_verde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back_mediano_verde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="index" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\index.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mantenimiento_logo_verde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mantenimiento_logo_verde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="presentation_icono_verde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\presentation_icono_verde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_frm_articulos1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo_frm_articulos1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

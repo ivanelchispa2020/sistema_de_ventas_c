@@ -1,0 +1,8 @@
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\capa_negocio\bin\Debug\capa_negocio.dll
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\capa_negocio\bin\Debug\capa_negocio.pdb
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\capa_negocio\bin\Debug\capa_datos.dll
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\capa_negocio\bin\Debug\MySql.Data.dll
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\capa_negocio\bin\Debug\capa_datos.pdb
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\capa_negocio\obj\Debug\capa_negocio.csprojResolveAssemblyReference.cache
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\capa_negocio\obj\Debug\capa_negocio.dll
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\capa_negocio\obj\Debug\capa_negocio.pdb

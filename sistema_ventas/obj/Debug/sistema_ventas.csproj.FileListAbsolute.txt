@@ -1,0 +1,15 @@
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\sistema_ventas\bin\Debug\sistema_ventas.exe.config
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\sistema_ventas\obj\Debug\sistema_ventas.exe
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\sistema_ventas\obj\Debug\sistema_ventas.pdb
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\sistema_ventas\bin\Debug\sistema_ventas.exe
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\sistema_ventas\bin\Debug\sistema_ventas.pdb
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\sistema_ventas\bin\Debug\capa_presentacion.dll
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\sistema_ventas\bin\Debug\capa_negocio.dll
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\sistema_ventas\bin\Debug\capa_datos.dll
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\sistema_ventas\bin\Debug\MySql.Data.dll
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\sistema_ventas\bin\Debug\capa_presentacion.pdb
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\sistema_ventas\bin\Debug\capa_negocio.pdb
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\sistema_ventas\bin\Debug\capa_datos.pdb
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\sistema_ventas\obj\Debug\sistema_ventas.csprojResolveAssemblyReference.cache
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\sistema_ventas\obj\Debug\sistema_ventas.Properties.Resources.resources
+C:\Users\ivan\documents\visual studio 2015\Projects\sistema_ventas\sistema_ventas\obj\Debug\sistema_ventas.csproj.GenerateResource.Cache

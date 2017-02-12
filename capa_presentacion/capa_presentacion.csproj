@@ -1,0 +1,632 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5CEA369B-EDCD-40B2-B7A8-ACBD49876E4F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>capa_presentacion</RootNamespace>
+    <AssemblyName>capa_presentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="frm_articulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_articulos.Designer.cs">
+      <DependentUpon>frm_articulos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_cargando.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_cargando.Designer.cs">
+      <DependentUpon>frm_cargando.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_cargando_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_cargando_2.Designer.cs">
+      <DependentUpon>frm_cargando_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ingresos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ingresos.Designer.cs">
+      <DependentUpon>frm_ingresos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_login.Designer.cs">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_panel_principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_panel_principal.Designer.cs">
+      <DependentUpon>frm_panel_principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_panel_principal_grande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_panel_principal_grande.Designer.cs">
+      <DependentUpon>frm_panel_principal_grande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_principal.Designer.cs">
+      <DependentUpon>frm_principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_proveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_proveedores.Designer.cs">
+      <DependentUpon>frm_proveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_trabajador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_trabajador.Designer.cs">
+      <DependentUpon>frm_trabajador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\capa_datos\capa_datos.csproj">
+      <Project>{DE5E3521-4CF4-476D-989C-6B2BD63B7F35}</Project>
+      <Name>capa_datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\capa_negocio\capa_negocio.csproj">
+      <Project>{79b2e0dc-a18d-4bd6-bc01-58a54b1bc8cd}</Project>
+      <Name>capa_negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frm_articulos.resx">
+      <DependentUpon>frm_articulos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_cargando.resx">
+      <DependentUpon>frm_cargando.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_cargando_2.resx">
+      <DependentUpon>frm_cargando_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ingresos.resx">
+      <DependentUpon>frm_ingresos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_login.resx">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_panel_principal.resx">
+      <DependentUpon>frm_panel_principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_panel_principal_grande.resx">
+      <DependentUpon>frm_panel_principal_grande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_principal.resx">
+      <DependentUpon>frm_principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_proveedores.resx">
+      <DependentUpon>frm_proveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_trabajador.resx">
+      <DependentUpon>frm_trabajador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ingreso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\almacen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proveedor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ventas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mantenimiento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\consultas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\herramientas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ventana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ivan_avatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sistema.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\articulo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\categoria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\presentacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cliente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trabajador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sql.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\base_de_datos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acerca_de_mi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\index.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ordenar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vertical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\horizontal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cascada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nueva_ventana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quitar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\normal_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_abierto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_cerrado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compras_icono_naranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compras_icono_verde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\almacen_logo_naranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\almacen_logo_verde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ventas_icono_naranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ventas_icono_verde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mantenimiento_logo_naranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mantenimiento_logo_verde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\presentation_icono_naranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\presentation_icono_verde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\base_de_datos_icono_naranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\base_de_datos_icono_verde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soporte_tecnico_naranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soporte_tecnico_verde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\degradado_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_imagen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next_grande_naranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main_grande_naranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_grande_naranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_mediano_verde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next_mediano_verde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\degradado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\degradado_menu_mediano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\degradado_menu_mediano_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\articulo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\base_de_datos1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\categoria1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cliente1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\consultas1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ingreso1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\presentacion1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proveedor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proveedores.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\servicio_tecnico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trabajador1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ventas1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trabajador2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\articulos_grande.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ingreso_grande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\degradado_fondo_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\degradado_fondo_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\articulos_grande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\categoria_grande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cliente_grande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\consultas_grande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\presentacion_grande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proveedores_grande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soporte_tecnico_grande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trabajadores_grande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trabajadores_grande_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ventas_grande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\panel_grande_ingreso_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_principal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_menu_principal_grande.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_menu_principal_grande1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_menu_principal_grande_blanco.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\degrdado_menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comprando.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\almacen1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ventas2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soporte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cargando.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cargando.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cargando_3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cargando_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cargando_5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cargando_6.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\datos_ingresos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\datos_egresos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_frm_ingreso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagen_frm_ingreso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_frm_ingreso_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_frm_ingreso_21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_frm_ingresos_grande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_25.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_26.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_27.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_28.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frm_ingresos_grande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frm_ingresos_grande_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frm_ingresos_grande_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_frm_articulos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frm_articulos_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frm_articulos_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_frm_articulos1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
