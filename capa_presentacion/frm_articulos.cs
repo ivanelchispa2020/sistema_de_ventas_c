@@ -71,7 +71,7 @@ namespace capa_presentacion
                 this.BackgroundImage = capa_presentacion.Properties.Resources.frm_articulos_2;
                 cambia_tamano(Color.White, new Font("Comic Sans MS", 11, FontStyle.Bold));
                 cambia_tamano_pag_2(Color.White, new Font("Comic Sans MS", 11, FontStyle.Bold));
-                this.txt_descripcion.Size = new Size(200, 130);
+                this.txt_descripcion.Size = new Size(215, 130);
             }
 
 
